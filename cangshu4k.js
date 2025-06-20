@@ -332,6 +332,8 @@ function extractUrlsFormat(data) {
 }
 
 
-export function __jsEvalReturn() {
-    return { init, home, homeVod, category, detail, play, search };
+function __jsEvalReturn() {
+    return { init, home, category, detail, play, search };
+}
+__jsEvalReturn();
 }
